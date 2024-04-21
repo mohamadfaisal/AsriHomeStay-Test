@@ -1,0 +1,277 @@
+{
+  "id": "6afb33b8-3b90-42db-b268-bdafde05760b",
+  "version": "2.0",
+  "name": "Web Testing of Asri Homestay Ponorogo",
+  "url": "https://asrihomestayponorogo.com",
+  "tests": [{
+    "id": "3b961390-264c-4b61-97db-3ec994d72c26",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "ef268c9d-7e14-4b05-b48c-a1f4c9ee5ba2",
+    "name": "Full Test Case",
+    "commands": [{
+      "id": "f1ef4cfb-c55c-4471-9445-e4ccd7e7e3c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a9e0cf4-af15-46f6-bf6a-799767c414fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54bd2183-ac2a-4daa-8c7f-337cf35095bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=zmCMQx",
+      "targets": [
+        ["id=zmCMQx", "id"],
+        ["linkText=Baca Selengkapnya", "linkText"],
+        ["css=#zmCMQx", "css:finder"],
+        ["xpath=//a[contains(text(),'Baca Selengkapnya')]", "xpath:link"],
+        ["xpath=//a[@id='zmCMQx']", "xpath:attributes"],
+        ["xpath=//section[@id='zyu1PO']/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tips-hemat-saat-menginap-di-asri-homestay')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baca Selengkapnya')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1582",
+      "windowTimeout": 2000
+    }, {
+      "id": "7a7cae6b-1ab2-487e-ae5f-4ee3c3270ccb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1582}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39efbc68-ebe6-4295-998a-9d8c9a76f935",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Beranda",
+      "targets": [
+        ["linkText=Beranda", "linkText"],
+        ["css=.block-header-item:nth-child(1) .item-content", "css:finder"],
+        ["xpath=//a[contains(text(),'Beranda')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//label/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beranda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5982fe2e-eede-4ca3-a480-66aacd087d5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Harga",
+      "targets": [
+        ["linkText=Harga", "linkText"],
+        ["css=.block-header-item:nth-child(2) .item-content", "css:finder"],
+        ["xpath=//a[contains(text(),'Harga')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/harga')]", "xpath:href"],
+        ["xpath=//li[2]/label/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Harga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c303bb48-cf87-44e9-9f41-11c4c549b37b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Beranda",
+      "targets": [
+        ["linkText=Beranda", "linkText"],
+        ["css=.block-header-item:nth-child(1) .item-content", "css:finder"],
+        ["xpath=//a[contains(text(),'Beranda')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//label/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beranda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa38453-67a8-4775-9800-ca4208e22c5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=zCSUgI",
+      "targets": [
+        ["id=zCSUgI", "id"],
+        ["linkText=Pesan", "linkText"],
+        ["css=#zCSUgI", "css:finder"],
+        ["xpath=//a[contains(text(),'Pesan')]", "xpath:link"],
+        ["xpath=//a[@id='zCSUgI']", "xpath:attributes"],
+        ["xpath=//section[@id='zgBKdi']/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://wa.me/+6281359722789')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pesan')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5253",
+      "windowTimeout": 2000
+    }, {
+      "id": "744649fc-595d-4d3f-8616-97dfb5062b2b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5253}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebd71024-f3d7-4d51-b597-2fb468520c11",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5def971-381c-431d-8824-2658800ab2ac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1582}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "099997e2-f9e5-481a-9cba-19f1dce87feb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Harga",
+      "targets": [
+        ["linkText=Harga", "linkText"],
+        ["css=.block-header-item:nth-child(2) .item-content", "css:finder"],
+        ["xpath=//a[contains(text(),'Harga')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/harga')]", "xpath:href"],
+        ["xpath=//li[2]/label/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Harga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acf5903-d635-4e70-b20f-048d3c07b9d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=zMY0tz",
+      "targets": [
+        ["id=zMY0tz", "id"],
+        ["linkText=Pilih", "linkText"],
+        ["css=#zMY0tz", "css:finder"],
+        ["xpath=//a[contains(text(),'Pilih')]", "xpath:link"],
+        ["xpath=//a[@id='zMY0tz']", "xpath:attributes"],
+        ["xpath=//section[@id='zyGlHQ']/div[2]/div[15]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://wa.me/+6281359722789')]", "xpath:href"],
+        ["xpath=//div[15]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pilih')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5313",
+      "windowTimeout": 2000
+    }, {
+      "id": "30b85cfa-3d9a-4a06-80b5-f966be1437f5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5313}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abe7561b-a84d-4f0e-97c4-8b4e2ae3a7b6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9083d61-b0dc-4eb4-9208-831344ba4d5b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1582}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f756d2ea-69d9-45df-aada-8ab5596b3914",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kontak",
+      "targets": [
+        ["linkText=Kontak", "linkText"],
+        ["css=.block-header-item:nth-child(3) .item-content", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontak')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/kontak')]", "xpath:href"],
+        ["xpath=//li[3]/label/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0efafe82-c59d-4587-923e-23a27d29503a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "c409514d-321d-4e4e-aebc-8d7a19b0c2cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style:nth-child(3) > div > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style:nth-child(3) > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f1513ff-3459-4863-a6d8-856661ac07c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lihat peta lebih besar",
+      "targets": [
+        ["linkText=Lihat peta lebih besar", "linkText"],
+        ["css=.google-maps-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Lihat peta lebih besar')]", "xpath:link"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://maps.google.com/maps?ll=-7.877385,111.461212&z=13&t=m&hl=id-ID&gl=US&mapclient=embed&cid=8355769647263554769')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lihat peta lebih besar')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1449",
+      "windowTimeout": 2000
+    }, {
+      "id": "fb9be27e-e769-49da-8cd8-8b4f77180e39",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1449}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "724a7bda-d14c-42a8-913e-38947be3650e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68ab08d2-dd1f-4a53-8b47-176d7c09c637",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1582}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ef410ec8-2036-45df-a796-49e88a657f52",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b961390-264c-4b61-97db-3ec994d72c26"]
+  }],
+  "urls": ["https://asrihomestayponorogo.com/"],
+  "plugins": []
+}
